@@ -121,6 +121,7 @@ h1.title {
 }
 
 .game-container {
+  margin: 0 auto;
   margin-top: 40px;
   position: relative;
   padding: var(--grid-spacing);
@@ -392,7 +393,7 @@ h1.title {
 /* Mobile Responsive */
 @media screen and (max-width: 520px) {
   :root {
-    --field-width: 280px;
+    --field-width: 320px;
     --grid-spacing: 10px;
   }
 
@@ -407,7 +408,7 @@ h1.title {
   }
 
   .container {
-    width: 280px;
+    width: 320px;
     margin: 0 auto;
   }
 
