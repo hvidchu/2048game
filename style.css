@@ -12,7 +12,8 @@
   --button-bg: #FF7043;
   /* Warm Orange/Red */
   --button-text: #ffffff;
-  --field-width: 500px;
+  /* Main game area width control */
+  --field-width: min(960px, calc(100vw - 30px));
   --grid-spacing: 15px;
   --grid-row-cells: 4;
   --tile-size: calc((var(--field-width) - var(--grid-spacing) * (var(--grid-row-cells) + 1)) / var(--grid-row-cells));
@@ -30,7 +31,8 @@ body {
 }
 
 body {
-  margin: 20px 0;
+  margin: 50px 0 0 0;
+  /* Top 50px */
 }
 
 .heading:after {
